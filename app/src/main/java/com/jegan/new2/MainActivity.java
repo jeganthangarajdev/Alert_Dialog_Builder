@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 AlertDialog.Builder builder=new AlertDialog.Builder(MainActivity.this);
-                builder.setMessage("HELLO");
+                builder.setMessage("Hi");
                 builder.setTitle("HI");
                 builder.setCancelable(true);
                 builder.setPositiveButton("YES", new DialogInterface.OnClickListener() {
